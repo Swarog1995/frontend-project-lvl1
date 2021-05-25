@@ -1,5 +1,5 @@
 {
-  "name": "@hexlet/code",
+  "name": "@swarog1995/brain-games-swarog1995",
   "version": "1.0.0",
   "type": "module",
   "description": "[![Actions Status](https://github.com/Swarog1995/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Swarog1995/frontend-project-lvl1/actions)",
@@ -17,9 +17,7 @@
     "url": "https://github.com/Swarog1995/frontend-project-lvl1/issues"
   },
   "homepage": "https://github.com/Swarog1995/frontend-project-lvl1#readme",
-  "dependencies": {
-    "lodash": "^4.17.21"
-  },
+  "dependencies": {},
   "bin": {
     "brain-games": "bin/brain-games.js"
   }
