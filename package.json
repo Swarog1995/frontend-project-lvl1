@@ -1,9 +1,12 @@
 {
   "name": "@swarog1995/brain-games-swarog1995",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "[![Actions Status](https://github.com/Swarog1995/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Swarog1995/frontend-project-lvl1/actions)",
   "main": "bin/brain-games.js",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,8 +20,12 @@
     "url": "https://github.com/Swarog1995/frontend-project-lvl1/issues"
   },
   "homepage": "https://github.com/Swarog1995/frontend-project-lvl1#readme",
-  "dependencies": {},
-  "bin": {
-    "brain-games": "bin/brain-games.js"
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4"
   }
 }

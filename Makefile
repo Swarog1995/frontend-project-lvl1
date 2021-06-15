@@ -5,4 +5,7 @@ brain-games:
 	node bin/brain-games.js
 
 publish:
-	npm publish  --access=public
+	npm publish  --dry-run
+
+lint:
+	npx eslint .
