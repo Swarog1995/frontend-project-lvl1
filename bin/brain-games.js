@@ -1,2 +1,6 @@
 #!/usr/bin/env node
-console.log("Welcome to the Brain Games!");
+// eslint-disable-next-line import/extensions
+import answer from '../src/cli.js';
+
+console.log('Welcome to the Brain Games!');
+answer();
