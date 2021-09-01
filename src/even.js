@@ -23,10 +23,11 @@ export const even = () => {
     const question = readline.question(`Question: ${random}\nYour answer: `);
     if (checkEven(random) && question === 'yes') {
       count += 1;
-    }
-    if (!checkEven(random) && question === 'no') {
+    } else if (!checkEven(random) && question === 'no') {
       count += 1;
+    } else {
+      break;
     }
   } while (count < 3);
-  console.log(`Congratulations, ${player.name}!`);
+  if (count === 3) { console.log(`Congratulations, ${player.name}!`); }
 };
